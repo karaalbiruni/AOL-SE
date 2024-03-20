@@ -43,7 +43,7 @@
     <!-- end of nav -->
     <!-- main -->
     <main class="page">
-      <!-- header -->
+      <!-- header 
       <header class="hero">
         <div class="hero-container">
           <div class="hero-text">
@@ -51,7 +51,7 @@
             <h4>no fluff, just recipes</h4>
           </div>
         </div>
-      </header>
+      </header> -->
       <!-- Slideshow container -->
       <div class="slideshow-container">
         <div class="mySlides fade">
@@ -76,6 +76,8 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
+
+
       <script>
         let slideIndex = 1;
         showSlides(slideIndex);
@@ -102,8 +104,11 @@
           }
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
-        </script>
+
+          </script>
+
       <!-- end of header -->
       <section class="recipes-container">
         <!-- tag container -->
@@ -122,7 +127,7 @@
           <!-- single recipe -->
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/recipes/recipe-1.jpeg"
+              src="Image/Foto.jpg"
               class="img recipe-img"
               alt=""
             />
@@ -133,7 +138,7 @@
           <!-- single recipe -->
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/recipes/recipe-2.jpeg"
+              src="Image/Foto.jpg"
               class="img recipe-img"
               alt=""
             />
@@ -144,7 +149,7 @@
           <!-- single recipe -->
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/recipes/recipe-3.jpeg"
+              src="Image/769b2b54-27e8-4503-8a28-38eaad78607c.jpg"
               class="img recipe-img"
               alt=""
             />
@@ -155,7 +160,7 @@
           <!-- single recipe -->
           <a href="single-recipe.html" class="recipe">
             <img
-              src="./assets/recipes/recipe-4.jpeg"
+              src="Image/Foto.jpg"
               class="img recipe-img"
               alt=""
             />
